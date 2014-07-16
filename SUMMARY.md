@@ -12,4 +12,11 @@
    * [Data Types](c++_basics/data_types.md)
    * [Variables](c++_basics/variables.md)
    * [Input ](c++_basics/input.md)
+* [Flow control](flow_control/README.md)
+   * [Operators](flow_control/operators.md)
+   * [Conditionals](flow_control/conditionals.md)
+   * [switch-case ](flow_control/switch-case.md)
+   * [Loops ](flow_control/loops.md)
+       * [while and do-while ](flow_control/while_and_do-while.md)
+       * [for](flow_control/for.md)
 
