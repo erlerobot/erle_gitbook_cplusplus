@@ -3,7 +3,8 @@
 Now that we know how to give names to values, we can have the user of the program input
 values. This is demonstrated in line 6 below:
 ```cpp
-# include<iostream>
+#include<iostream>
+#include <string>
  using namespace std;
 
  int main () {

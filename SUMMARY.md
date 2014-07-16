@@ -12,6 +12,7 @@
    * [Data Types](c++_basics/data_types.md)
    * [Variables](c++_basics/variables.md)
    * [Input ](c++_basics/input.md)
+   * [Exercises](c++_basics/exercises.md)
 * [Flow control](flow_control/README.md)
    * [Operators](flow_control/operators.md)
    * [Conditionals](flow_control/conditionals.md)

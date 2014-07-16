@@ -5,7 +5,9 @@ A variable is a named location in memory.
 For example, say we wanted to use the value 4 + 2 multiple times. We might call it x and
 use it as follows:
 ```cpp
- # include <iostream>
+
+ #include <iostream>
+ #include <string>
  using namespace std ;
 
  int main () {

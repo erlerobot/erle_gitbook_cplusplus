@@ -2,7 +2,21 @@
 
 In the tradition of programmers everywhere, we’ll use a “Hello, world!” program as an entry
 point into the basic features of C++.
+```cpp
+#include <iostream>
+#include <string>
 
+  int main () {
+
+ std :: cout << " Hello , world !\n ";
+
+
+
+ return 0;
+
+ }
+ ```
+ There are also another possibilities, like this one:
 ```cpp
 
 #include<stdio.h>

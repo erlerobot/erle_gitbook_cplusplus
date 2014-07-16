@@ -6,6 +6,10 @@ You should be able to run C++ programs in erleboard:
 ```
 gcc filename.cpp -o executablename
 ```
+or
+```
+g++ filename.cpp -o executablename
+```
 - Now you have an executable file `executablename`.
 
 Example:
