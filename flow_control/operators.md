@@ -8,8 +8,8 @@ determine whether some condition is true or false.
 
 The relational operators are used to test a relation between two expressions:
 
-|**Operator**| **Meaning**|
-|--|--|
+|**Operator**|**Meaning**|
+|----------|-----------|
 |> |Greater than|
 |>= |Greater than or equal to |
 |< |Less than |
@@ -29,7 +29,7 @@ The logical operators are often used to combine relational expressions into more
 Boolean expressions:
 
 |**Operator**|**Meaning**|
-|--|--|
+|----------|----------|
 |&&| and |
 |*double pipe* |or |
 |! |not |
