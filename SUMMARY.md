@@ -5,4 +5,5 @@
    * [Editors, compilers and extensions](c++_programming_language/compiling__c++.md)
    * [C++ and erleboard](c++_programming_language/c++_and_erleboard.md)
 * [C++ basics](c++_basics/README.md)
+   * [Hello World ](c++_basics/hello_world.md)
 
