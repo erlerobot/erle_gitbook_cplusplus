@@ -34,10 +34,13 @@ Boolean expressions:
 |*double pipe* |or |
 |! |not |
 
+
 The `and` and `or` operators return true or false, according to the rules of logic:
+
 ![and/or](./and_or.jpg)
 
 The `not` operator is a unary operator, taking only one argument and negating its value:
+
 ![not](./not.jpg)
 
 
