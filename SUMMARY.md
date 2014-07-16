@@ -12,7 +12,7 @@
    * [Data Types](c++_basics/data_types.md)
    * [Variables](c++_basics/variables.md)
    * [Input ](c++_basics/input.md)
-   * [Exercises](c++_basics/exercises.md)
+   * [Exercises:Basics](c++_basics/exercises.md)
 * [Flow control](flow_control/README.md)
    * [Operators](flow_control/operators.md)
    * [Conditionals](flow_control/conditionals.md)
@@ -20,4 +20,5 @@
    * [Loops ](flow_control/loops.md)
        * [while and do-while ](flow_control/while_and_do-while.md)
        * [for](flow_control/for.md)
+   * [Exercises: Flow Control](flow_control/exercises_flow_control.md)
 
