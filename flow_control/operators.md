@@ -8,8 +8,8 @@ determine whether some condition is true or false.
 
 The relational operators are used to test a relation between two expressions:
 
-|**Operator**| **Meaning**|
-|--|--|
+|**Operator**|**Meaning**|
+|----------|-----------|
 |> |Greater than|
 |>= |Greater than or equal to |
 |< |Less than |
@@ -29,15 +29,18 @@ The logical operators are often used to combine relational expressions into more
 Boolean expressions:
 
 |**Operator**|**Meaning**|
-|--|--|
+|----------|----------|
 |&&| and |
 |*double pipe* |or |
 |! |not |
 
+
 The `and` and `or` operators return true or false, according to the rules of logic:
+
 ![and/or](./and_or.jpg)
 
 The `not` operator is a unary operator, taking only one argument and negating its value:
+
 ![not](./not.jpg)
 
 

@@ -9,7 +9,7 @@ of memory to store. Here are the built-in datatypes we will use most often:
 
 
 |**Type Names**| **Description**| **Size**| **Range**|
-|--|--|--|--|
+|--------|----------------------------|---------|-----------------|
 |char| Single text character or small integer.Indicated with single quotes (’a’, ’3’).| 1 byte| signed: -128 to 127 unsigned: 0 to 255 |
 |int| Larger integer.| 4 bytes| signed: -2147483648 to 2147483647 unsigned: 0 to 4294967295 |
 |bool |Boolean (true/false). Indi­cated with the keywords true and false.| 1 byte| Just true (1) or false (0). |
