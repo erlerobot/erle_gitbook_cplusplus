@@ -8,7 +8,7 @@ Write a program that adds two inputed numbers.
 ```cpp
 
 #include <iostream>
-#include <string>
+
 using namespace std;
 int main()
 {
@@ -31,7 +31,7 @@ Write a program that ask for a name and say hello.
 **Solution:**
 ```cpp
 #include <iostream>
-#include <string>
+
 
 int main (){
 
@@ -54,7 +54,7 @@ Sum,Diff,Product,Quotient,Remainder,Increment first num., Decrement Second num. 
 **Solution:**
 ```cpp
 #include <iostream>
-#include <string>
+
 using namespace std;
 int main()
 {

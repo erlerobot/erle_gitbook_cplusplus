@@ -65,7 +65,7 @@ int main() {
 
   switch(x) {
    case 1:
-    cout << “x is 1\n”;
+    cout << "x is 1\n";
     break;
    case 2:
    case 3:

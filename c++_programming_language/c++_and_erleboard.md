@@ -10,7 +10,7 @@ or
 ```
 g++ filename.cpp -o executablename
 ```
-- Now you have an executable file `executablename`.
+- Now you have an executable file `executablename`.Do `./executablename`to compile it.
 
 Example:
 
@@ -21,4 +21,6 @@ root@erlerobot:~/C++# gcc hello.cpp -o Hola
 root@erlerobot:~/C++# ls
 Hola  hello.cpp
 root@erlerobot:~/C++#
+root@erlerobot:~/C++# ./Hola
+Hola Mundo!
 ```

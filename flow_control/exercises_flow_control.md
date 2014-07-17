@@ -6,7 +6,7 @@ Write a program that checks if the angles given can make a triangle or not (thei
 **Solution:**
 ```cpp
 #include <iostream>
-#include <string>
+
 using namespace std;
 int main()
 {
@@ -28,8 +28,9 @@ Write a program that prints on the screen all the even numbers up to 10.
 **Solution:**
 ```
 #include <iostream>
-#include <string>
+
 using namespace std;
+
 int main()
 {
   for(int x=0;x<=10;x=x+2)
@@ -51,7 +52,7 @@ Do this using if statement.
 
 ```cpp
  #include <iostream>
- #include<string>
+
  using namespace std;
 
 
@@ -90,7 +91,7 @@ Write a program that tells you if a number is even or odd.
 **Solution:**
 ```cpp
 #include <iostream>
-#include <string>
+
 using namespace std;
 int main()
 {

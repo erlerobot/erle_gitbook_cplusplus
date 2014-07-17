@@ -4,7 +4,7 @@ In the tradition of programmers everywhere, we’ll use a “Hello, world!” pr
 point into the basic features of C++.
 ```cpp
 #include <iostream>
-#include <string>
+
 
   int main () {
 
