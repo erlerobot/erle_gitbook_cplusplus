@@ -66,3 +66,45 @@ int n;int i; int max=0;
 }
 ```
 
+######Exercise 3
+
+Take input in variable and display same value by pointer.
+
+**Solution:**
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+   int a;
+   cout<<"Enter number:";
+   cin>>a;
+   int *b=&a;
+
+
+    cout<< " The pointer values is "<< *b << " the memory address is: "<<  b;
+}
+```
+
+######Exercise 4
+
+Given the string "A string." Print on one line the letter on the index 0, the pointer position and the letter t.
+undate the pointer to pointer +2.
+Then, in another line print the pointer and the letters r and g of the string (using the pointer).
+
+**Solution:**
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(void) {
+char str[] = "A string.";
+char *pc = str;
+
+cout << str[0] <<' '<< *pc <<' '<<pc[3]<<"\n";
+pc += 2;
+cout <<*pc<<' '<< pc[2] <<' '<< pc[5];
+
+ return 0;
+}
+```
