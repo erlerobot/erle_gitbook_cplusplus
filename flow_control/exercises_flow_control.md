@@ -107,3 +107,24 @@ int main()
 
 }
 ```
+######Exercise 5
+
+Write a program that asks for a number and calculates its factorial.(e.g 3!=1*2*3)
+
+**Solution:**
+```cpp
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num;
+   long res=1;
+   cout<<"Enter a number:";
+   cin>>num;
+   for(int i=1; i<= num; i=i+1){
+       res=res*i;
+   }
+    cout<<"Factorial is: \n"<<res;
+}
+```
