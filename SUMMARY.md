@@ -28,4 +28,8 @@
    * [Pass by reference](functions/pass_by_reference.md)
    * [Returning multile values](functions/returning_multile_values.md)
    * [Exercises: Functions](functions/exercises_functions.md)
+* [Arrays and Strings](arrays_and_strings/README.md)
+   * [Arrays basics](arrays_and_strings/arrays_basics.md)
+   * [Strings basics](arrays_and_strings/strings_basics.md)
+   * [Exercises: Arrays](arrays_and_strings/exercises_arrays.md)
 

@@ -31,7 +31,7 @@ int main() {
 
 ######Exercise 2
 
-Write a program that ask a name say hello. Use your own function, that recives a string of characters (name) and prints on screen the hello message. (Doesn't returns anything- `void` type)
+Write a program that asks a name say hello. Use your own function, that recives a string of characters (name) and prints on screen the hello message. (Doesn't returns anything- `void` type)
 ```
 #include<iostream>
 using namespace std;
