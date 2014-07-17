@@ -32,4 +32,11 @@
    * [Arrays basics](arrays_and_strings/arrays_basics.md)
    * [Strings basics](arrays_and_strings/strings_basics.md)
    * [Exercises: Arrays](arrays_and_strings/exercises_arrays.md)
+* [Pointers](pointers/README.md)
+   * [Pointers and their behavior](pointers/pointers_and_their_behavior.md)
+       * [Pointers usage/syntaxis](pointers/pointers_usagesyntaxis.md)
+   * [Pointers:Runtime Error](pointers/pointersruntime_error.md)
+   * [References](pointers/references.md)
+   * [Pointers and arrays](pointers/pointers_and_arrays.md)
+   * [Exercises: Pointers](pointers/exercises_pointers.md)
 
