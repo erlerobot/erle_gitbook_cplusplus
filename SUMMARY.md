@@ -39,4 +39,13 @@
    * [References](pointers/references.md)
    * [Pointers and arrays](pointers/pointers_and_arrays.md)
    * [Exercises: Pointers](pointers/exercises_pointers.md)
+* [Classes and structs](classes_and_structs/README.md)
+   * [Classes](classes_and_structs/classes.md)
+   * [Structures](classes_and_structs/structures.md)
+   * [Access Modifiers](classes_and_structs/access_modifiers.md)
+   * [Instances](classes_and_structs/instances.md)
+   * [Classes of classes](classes_and_structs/classes_of_classes.md)
+   * [Passing classes to functions](classes_and_structs/passing_classes_to_functions.md)
+   * [Class Methods](classes_and_structs/class_methods.md)
+   * [Constructors](classes_and_structs/constructors.md)
 
