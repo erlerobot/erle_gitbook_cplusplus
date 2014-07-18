@@ -48,4 +48,5 @@
    * [Passing classes to functions](classes_and_structs/passing_classes_to_functions.md)
    * [Class Methods](classes_and_structs/class_methods.md)
    * [Constructors](classes_and_structs/constructors.md)
+   * [Exercises: Classes](classes_and_structs/exercises_classes.md)
 
