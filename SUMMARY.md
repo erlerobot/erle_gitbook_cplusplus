@@ -49,4 +49,8 @@
    * [Class Methods](classes_and_structs/class_methods.md)
    * [Constructors](classes_and_structs/constructors.md)
    * [Exercises: Classes](classes_and_structs/exercises_classes.md)
+* [Object-Oriented Programming ](object-oriented_programming__oop_and_inheritance/README.md)
+   * [The basic Ideas of OOP](object-oriented_programming__oop_and_inheritance/the_basic_ideas_of_oop.md)
+   * [Encapsulation](object-oriented_programming__oop_and_inheritance/encapsulation.md)
+   * [Inheritance](object-oriented_programming__oop_and_inheritance/inheritance.md)
 

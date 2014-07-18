@@ -39,7 +39,7 @@ copies all fields (default copy constructor):
 Point q(1.0, 2.0); // 2-parameter constructor
 Point r = q;// r.x is 1.0, r.y is 2.0)
 ```
-Sometimes it is derirable to define your own copy constructor:
+Sometimes it is desirable to define your own copy constructor:
 ```cpp
 Point(Point &o) {
  x = o.x; y = o.y; cout << "custom copy constructor" << endl;
