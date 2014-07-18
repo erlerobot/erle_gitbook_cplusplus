@@ -53,4 +53,7 @@
    * [The basic Ideas of OOP](object-oriented_programming__oop_and_inheritance/the_basic_ideas_of_oop.md)
    * [Encapsulation](object-oriented_programming__oop_and_inheritance/encapsulation.md)
    * [Inheritance](object-oriented_programming__oop_and_inheritance/inheritance.md)
+   * [Polymorphism](object-oriented_programming__oop_and_inheritance/polymorphism.md)
+       * [virtual Functions ](object-oriented_programming__oop_and_inheritance/virtual_functions.md)
+   * [Multiple Inheritance](object-oriented_programming__oop_and_inheritance/multiple_inheritance.md)
 
