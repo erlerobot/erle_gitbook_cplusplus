@@ -56,4 +56,5 @@
    * [Polymorphism](object-oriented_programming__oop_and_inheritance/polymorphism.md)
        * [virtual Functions ](object-oriented_programming__oop_and_inheritance/virtual_functions.md)
    * [Multiple Inheritance](object-oriented_programming__oop_and_inheritance/multiple_inheritance.md)
+   * [Exercises: OOP](object-oriented_programming__oop_and_inheritance/exercises_oop.md)
 
