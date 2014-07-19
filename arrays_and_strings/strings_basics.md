@@ -109,6 +109,8 @@ cout << finalString;
  return 0;
 
  }
+
+
  ```
 
 This example creates and initializes two strings, `fragment1` and `fragment2`. `fragment3` is

@@ -1,6 +1,8 @@
 ## virtual Functions
 
-There is still a problem. Take the following example:
+A virtual function or virtual method is a function or method whose behavior can be overridden within an inheriting class by a function with the same signature. This concept is an important part of the polymorphism.
+
+Take the following example:
 ```
  Car c(" VANITY ", 2003) ;
  Vehicle * vPtr = &c;
