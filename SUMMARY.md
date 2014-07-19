@@ -57,4 +57,10 @@
        * [virtual Functions ](object-oriented_programming__oop_and_inheritance/virtual_functions.md)
    * [Multiple Inheritance](object-oriented_programming__oop_and_inheritance/multiple_inheritance.md)
    * [Exercises: OOP](object-oriented_programming__oop_and_inheritance/exercises_oop.md)
+* [Memory Management](memory_management/README.md)
+   * [Scoping and Memory](memory_management/scoping_and_memory.md)
+   * [The new operator](memory_management/the_new_operator.md)
+   * [The delete operator](memory_management/the_delete_operator.md)
+   * [Allocating Arrays](memory_management/allocating_arrays.md)
+   * [Exercises: Memory](memory_management/exercises_memory.md)
 
