@@ -37,7 +37,7 @@ int main( int argc, char **argv )
 }
 ```
 ######Exercise 2
-Write  profram that ask for the numbers os elements of an array and then fill it in. Use new and delete.
+Write  program that ask for the numbers of elements in an array and then fill it in. Use new and delete.
 **Solution:**
 ```cpp
 

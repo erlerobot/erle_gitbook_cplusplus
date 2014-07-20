@@ -63,4 +63,10 @@
    * [The delete operator](memory_management/the_delete_operator.md)
    * [Allocating Arrays](memory_management/allocating_arrays.md)
    * [Exercises: Memory](memory_management/exercises_memory.md)
+* [Advanced topics I](advanced_topics_i/README.md)
+   * [Templates](advanced_topics_i/templates.md)
+       * [Standard Template Library ](advanced_topics_i/standard_template_library.md)
+   * [Static and const members](advanced_topics_i/static_and_const_members.md)
+   * [Overloading operators](advanced_topics_i/overloading_operators.md)
+   * [Exercises: Advaced I](advanced_topics_i/exercises_advaced_i.md)
 
