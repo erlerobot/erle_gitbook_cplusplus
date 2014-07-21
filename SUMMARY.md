@@ -79,4 +79,5 @@
    * [friend Functions/Classes](advanced_topics_ii/friend_functionsclasses.md)
    * [Preprocessor Macros](advanced_topics_ii/preprocessor_macros.md)
    * [Casting](advanced_topics_ii/casting.md)
+   * [Exercises: Advanced II](advanced_topics_ii/exercises_advanced_ii.md)
 
