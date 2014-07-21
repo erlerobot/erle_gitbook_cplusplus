@@ -80,4 +80,5 @@
    * [Preprocessor Macros](advanced_topics_ii/preprocessor_macros.md)
    * [Casting](advanced_topics_ii/casting.md)
    * [Exercises: Advanced II](advanced_topics_ii/exercises_advanced_ii.md)
+* [Exercises: miscellaneous](exercises_miscellaneous/README.md)
 

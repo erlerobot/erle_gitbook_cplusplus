@@ -7,6 +7,8 @@ Then create a variable called `my_car_brand` and make it equal to one of them. P
 
 **Solution:**
 ```cpp
+#include <iostream>
+using namespace std;
 enum e_acomany {
 	Audi=4,
 	BMW=5,
