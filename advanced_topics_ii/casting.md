@@ -1,6 +1,6 @@
 ## Casting
 
-Casting is the process of converting a value between types. All C++-style casts are of the form cast `type<type>(value), where type is the type you’re
+Casting is the process of converting a value between types. All C++-style casts are of the form cast `type<type>(value)`, where type is the type you’re
 casting to. The possible cast types to replace cast type with are:
 
 - `static cast` : This is by far the most commonly used cast. It creates a simple copy

@@ -6,13 +6,18 @@ Take the following example:
 ```
  Car c(" VANITY ", 2003) ;
  Vehicle * vPtr = &c;
- cout << vPtr -> getDesc ();
+ cout << vPtr -> getDesc ();// is the same as cout << *vPtr.getDesc ();
 ```
 (The -> notation on line 3 just dereferences and gets a member. ptr->member is equivalent
 to (*ptr).member.)
 In the first line, we define an instance of class Car.
 Because vPtr is declared as a Vehicle *, this will call the Vehicle version of getDesc, even
 though the object pointed to is actually a Car, as Car inherits from Vehicle.
+
+Note:
+`*vPtr.getDesc () == vPtr->getDesc ()`
+In other words the `->`is equivalent to do an indirection(`*`) and add the dot (`.`) to access a class member.
+
 
 Usually we’d want the program to select the
 correct function at runtime based on which kind of object is pointed to. We can get this
