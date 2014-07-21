@@ -10,8 +10,9 @@ Take the following example:
 ```
 (The -> notation on line 3 just dereferences and gets a member. ptr->member is equivalent
 to (*ptr).member.)
+In the first line, we define an instance of class Car.
 Because vPtr is declared as a Vehicle *, this will call the Vehicle version of getDesc, even
-though the object pointed to is actually a Car.
+though the object pointed to is actually a Car, as Car inherits from Vehicle.
 
 Usually we’d want the program to select the
 correct function at runtime based on which kind of object is pointed to. We can get this
