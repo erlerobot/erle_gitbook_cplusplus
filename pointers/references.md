@@ -25,3 +25,6 @@ initialized when they are declared.
 
 -	 When writing the value that you want to make a reference to, you do not put an &
 before it to take its address, whereas you do need to do this for pointers.
+
+
+We will talk about this topic later, in classes chapter.

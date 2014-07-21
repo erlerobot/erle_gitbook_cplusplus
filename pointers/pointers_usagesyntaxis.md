@@ -71,5 +71,5 @@ through this pointer, but the pointer may not be changed to point to a diﬀeren
 integer.
 ```
 const int * const ptr;
-``
+```
 forbids changing either the address ptr contains or the value it points to.

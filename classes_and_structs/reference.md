@@ -1,4 +1,4 @@
-## Reference
+## Passing by reference
 
 References are perfectly valid types, just like pointers. For instance, just like `int *` is the
 “pointer to an integer” type, int & is the “reference to an integer” type. References can be
