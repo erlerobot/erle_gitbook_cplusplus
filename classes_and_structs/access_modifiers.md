@@ -47,5 +47,5 @@ With `protected`, C++ allows users to create classes based on other classes:
 The FordCar class then uses the fields from the general Car class and adds fields specific to FordCars
 done with inheritance.
 Public fields are inherited (as public) and
-private fields are not inherited
+private fields are not inherited.
 protected fields are like private, but can be inherited.
