@@ -29,7 +29,8 @@ int main () {
   delete c;
   cout << Dummy::n << '\n';
   return 0;
-}
+  }
+
 
 ```
 

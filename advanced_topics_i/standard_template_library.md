@@ -7,34 +7,35 @@ maps, queues, sets, stacks, and vectors. The algorithms include sequence operati
 searches, merges, heap operations, and min/max operations. We will explore how to use some
 of these through example here:
 ```cpp
- #include <iostream>
- #include <set>
+#include <iostream>
+#include <set>
 #include <algorithm>
 using namespace std;
 
 
 int main() {
-set<int> iset;
-iset.insert(5);
-iset.insert(9);
-iset.insert(1);
-iset.insert(8);
-iset.insert(3);
+   set<int> iset;
+   iset.insert(5);
+   iset.insert(9);
+   iset.insert(1);
+   iset.insert(8);
+   iset.insert(3);
 
-cout << "iset contains:";
-set<int>::iterator it;
-for(it=iset.begin(); it != iset.end(); it++)
-cout << " " << *it;
-cout << endl;
+  cout << "iset contains:";
+  set<int>::iterator it;
+  for(it=iset.begin(); it != iset.end(); it++)
+   cout << " " << *it;
+   cout << endl;
 
-int searchFor;
-cin >> searchFor;
-if(binary_search(iset.begin(), iset.end(), searchFor))
-cout << "Found " << searchFor << endl;
-else
+  int searchFor;
+  cin >> searchFor;
+  if(binary_search(iset.begin(), iset.end(), searchFor))
+    cout << "Found " << searchFor << endl;
+  else
 
-cout << "Did not find " << searchFor << endl;
-return 0; }
+   cout << "Did not find " << searchFor << endl;
+return 0;
+}
 ```
 In this example, we create an integer set and insert several integers into it. We then create an
 iterator corresponding to the set at lines 14 and 15. An iterator is basically a pointer that
@@ -56,17 +57,18 @@ Here is another example:
  cout << endl;
  }
 
- int main() {
-int a[] = {5, 7, 2, 1, 4, 3, 6};
+int main() {
+ int a[] = {5, 7, 2, 1, 4, 3, 6};
 
-sort(a, a+7);
+ sort(a, a+7);
  printArray(a, 7);
-rotate(a,a+3,a+7);
-printArray(a, 7);
+ rotate(a,a+3,a+7);
+ printArray(a, 7);
  reverse(a, a+7);
  printArray(a, 7);
 
- return 0; }
+ return 0;
+  }
  ```
 This program prints out:
 ```

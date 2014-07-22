@@ -67,17 +67,18 @@ int main() {
 Templates can also specify more than one type parameter. For example:
 ```
 #include <iostream>
- using namespace std;
+using namespace std;
 
- template <typename T, typename U>
- U sum(const T a, const U b) {
- return a + b;
- }
+template <typename T, typename U>
+U sum(const T a, const U b) {
+return a + b;
+}
 
- int main() {
- cout << sum<int, float>(1, 2.5) << endl;
- return 0;
- }
+int main() {
+cout << sum<int, float>(1, 2.5) << endl;
+
+return 0;
+}
  ```
 This program prints out 3.5. In this case we can also call sum by writing sum(1, 2.5).
 
@@ -120,8 +121,8 @@ specialization. Consider the following example:
 
 ```
  #include <iostream>
- #include <cctype>
- using namespace std;
+#include <cctype>
+using namespace std;
 
  template <typename T>
  class Container {
@@ -142,11 +143,13 @@ T inc() { return elt+1; }
  };
 
  int main() {
- Container<int> icont(5);
- Container<char> ccont('r');
- cout << icont.inc() << endl;
- cout << ccont.uppercase() << endl;
- return 0;
+
+   Container<int> icont(5);
+   Container<char> ccont('r');
+   cout << icont.inc() << endl;
+   cout << ccont.uppercase() << endl;
+
+   return 0;
  }
 ```
 This program prints out 6 and R on separate lines.  Here, the class Container is given two
