@@ -8,3 +8,7 @@ to some low-level features. It was created in 1979 by Bjarne Stroustrup, at ﬁr
 of extensions to the C programming language.
 
 For more information visit: http://www.cplusplus.com/
+
+######NOTE:
+
+All the compilable code of the book is available [in code folder](../code). In code folder you can find the sample codes organised by chapters and the solutions to the exercises.
