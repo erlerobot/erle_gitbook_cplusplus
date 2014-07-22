@@ -24,6 +24,7 @@ public:
  int *data;
  int size;
 };
+
 int main() {
  IntegerArray arr;
  arr.size = 2;

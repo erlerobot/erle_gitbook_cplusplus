@@ -26,15 +26,19 @@ int *getPtrToFive() {
 ```
 - When done, de-allocate the memory using delete.
 ```cpp
+#include<iostream>
+using spacename std;
+
 int *getPtrToFive() {
  int *x = new int;
  *x = 5;
  return x;
 }
+
 int main() {
  int *p = getPtrToFive();
-cout << *p << endl; // 5
-delete p;
+ cout << *p << endl; // 5
+ delete p;
 }
 ```
 If you don’t use de-allocate memory using
@@ -51,13 +55,16 @@ int *getPtrToFive() {
  *x = 5;
  return x;
 }
+
 int main() {
  int *p;
-for (int i = 0; i < 3; ++i) {
- p = getPtrToFive();
- cout << *p << endl;
- delete p;
+ for (int i = 0; i < 3; ++i) {
+  p = getPtrToFive();
+  cout << *p << endl;
+  delete p;
  }
+
+ return 0;
 }
 ```
 Note that to fix the memory leak, de-allocate memory

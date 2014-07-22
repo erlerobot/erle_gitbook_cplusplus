@@ -15,9 +15,10 @@ Let's analyze an example:
 using namespace std;
 
 int main() {
+
  if (true) {
- int x = 5;
- }
+  int x = 5;
+  }
  // x now out of scope, memory it used to occupy can be reused
 }
 ```
@@ -28,11 +29,12 @@ memory whose contents are undefined):
 using namespace std;
 
 int main() {
+
  int *p;
  if (true) {
- int x = 5;
- p = &x;
- }
+  int x = 5;
+  p = &x;
+  }
  cout << *p << endl; // ???
 }
 ```
@@ -48,6 +50,7 @@ int* getPtrToFive() {
  int x = 5;
  return &x;
 }
+
 int main() {
  int *p = getPtrToFive();
  cout << *p << endl; // ???
