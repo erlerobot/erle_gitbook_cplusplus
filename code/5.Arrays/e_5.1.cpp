@@ -9,8 +9,8 @@ int count(const int arr1[10], int numb){
    
    for (int u=0; u<10; u++){
 
-   if (arr1[u]==numb)
-   cont=cont+1;
+    if (arr1[u]==numb)
+     cont=cont+1;
    }
  return cont;
  }
