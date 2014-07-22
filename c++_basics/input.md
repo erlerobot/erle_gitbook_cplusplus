@@ -4,7 +4,6 @@ Now that we know how to give names to values, we can have the user of the progra
 values. This is demonstrated in line 6 below:
 ```cpp
 #include<iostream>
-
 using namespace std;
 
 int main () {
