@@ -54,19 +54,19 @@ The array can also be initialized with values that are not known beforehand:
 
  int main() {
 
- int arr[4];
+   int arr[4];
 
- cout << "Please enter 4 integers:" << endl;
+   cout << "Please enter 4 integers:" << endl;
 
- for(int i = 0; i < 4; i++)
- cin >> arr[i];
+   for(int i = 0; i < 4; i++)
+      cin >> arr[i];\\Fill in the array
 
- cout << "Values in array are now:";
+   cout << "Values in array are now:";
 
- for(int i = 0; i < 4; i++)
- cout << " " << arr[i];
+   for(int i = 0; i < 4; i++)
+      cout << " " << arr[i];\\ Show the content of the array
 
- cout << endl;
+   cout << endl;
 
 return 0;
 }
@@ -86,20 +86,25 @@ Arrays can also be passed as arguments to functions. When declaring the function
 specify the array as a parameter, without a dimension. The array can then be used as normal
 within the function. For example:
 ```cpp
-
 #include <iostream>
 using namespace std;
+
 
  int sum(const int array[], const int length) {
   long sum = 0;
   for(int i = 0; i < length; sum += array[i++]);
-  return sum;}
+  return sum;
+  }
+
  int main() {
 
- int arr[] = {1, 2, 3, 4, 5, 6, 7};
- cout << "Sum: " << sum(arr, 7) << endl;
- return 0;
- }
+  int arr[] = {1, 2, 3, 4, 5, 6, 7};
+  cout << "Sum: " << sum(arr, 7) << endl;
+
+
+  return 0;
+
+  }
 ```
 
 The function `su`m takes a constant integer array and a constant integer length as its arguments
@@ -126,32 +131,33 @@ and access thus work similarly to the one-dimensional case:
 #include <iostream>
 using namespace std;
 
- int main() {
+int main() {
 
-int twoDimArray[2][4];
+ int twoDimArray[2][4];
 
-twoDimArray[0][0] = 6;
+ twoDimArray[0][0] = 6;
 
-twoDimArray[0][1] = 0;
+ twoDimArray[0][1] = 0;
 
-twoDimArray[0][2] = 9;
+ twoDimArray[0][2] = 9;
 
-twoDimArray[0][3] = 6;
+ twoDimArray[0][3] = 6;
 
-twoDimArray[1][0] = 2;
+ twoDimArray[1][0] = 2;
 
-twoDimArray[1][1] = 0;
+ twoDimArray[1][1] = 0;
 
-twoDimArray[1][2] = 1;
+ twoDimArray[1][2] = 1;
 
  twoDimArray[1][3] = 1;
 
 for(int i = 0; i < 2; i++)
 
-for(int j = 0; j < 4; j++)
+ for(int j = 0; j < 4; j++)
 
-cout << twoDimArray[i][j];
- cout << endl;
+  cout << twoDimArray[i][j];
+  cout << endl;
+
 
  return 0;
 

@@ -10,10 +10,12 @@ using namespace std;
 
 int main() {
 
-char helloworld[] = { 'H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!', '\0' };
+ char helloworld[] = { 'H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!', '\0' };
 
  cout << helloworld << endl;
-return 0;
+
+
+ return 0;
 
  }
  ```
@@ -41,30 +43,31 @@ Here is an example to illustrate the [cctype library](http://www.cplusplus.com/r
 ```cpp
 #include <iostream>
 #include <cctype>
-
 using namespace std;
+
+
 int main() {
 
-char messyString[] = "t6H0I9s6.iS.999a9.STRING";
-char current = messyString[0];
+ char messyString[] = "t6H0I9s6.iS.999a9.STRING";
+ char current = messyString[0];
 
-for(int i = 0; current != '\0'; current = messyString[++i]) {
+ for(int i = 0; current != '\0'; current = messyString[++i]) {
 
-if(isalpha(current))
+    if(isalpha(current))
 
-cout << (char)(isupper(current) ? tolower(current) : current);
+      cout << (char)(isupper(current) ? tolower(current) : current);
 
-else if(ispunct(current))
+    else if(ispunct(current))
 
-cout << ' ';
+      cout << ' ';
 
-}
+ }
 
-cout << endl;
+ cout << endl;
 
-return 0;
+ return 0;
 
-}
+ }
 ```
 This example uses the `isalpha`, `isupper`, `ispunct`, and `tolowe`r functions from the cctype
 library. The `is-` functions check whether a given character is an alphabetic character, an
@@ -83,34 +86,31 @@ on line 11; we will cover later.
 Here is an example to illustrate the [cstring library](http://www.cplusplus.com/reference/cstring/):
 ```cpp
 #include <iostream>
-
 #include <cstring>
-
 using namespace std;
- int main() {
 
- char fragment1[] = "I'm a s";
+int main() {
 
- char fragment2[] = "tring!";
+  char fragment1[] = "I'm a s";
 
-char fragment3[20];
+  char fragment2[] = "tring!";
 
-char finalString[20] = "";
+  char fragment3[20];
 
-
-strcpy(fragment3, fragment1);
-
-strcat(finalString, fragment3);
-
-strcat(finalString, fragment2);
-
-cout << finalString;
-
- return 0;
-
- }
+  char finalString[20] = "";
 
 
+    strcpy(fragment3, fragment1);
+
+    strcat(finalString, fragment3);
+
+    strcat(finalString, fragment2);
+
+  cout << finalString;
+
+  return 0;
+
+  }
  ```
 
 This example creates and initializes two strings, `fragment1` and `fragment2`. `fragment3` is
