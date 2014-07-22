@@ -26,7 +26,7 @@ int main(){
 	cin>> nu2;
 	Imagin number1(nu1,nu2);
 	cout << "second number \n";
-    double nu3,nu4;
+        double nu3,nu4;
 	cout<< "Enter the real part:";
 	cin>> nu3;
 	cout<< "Enterthe imaginary part:";
