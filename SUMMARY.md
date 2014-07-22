@@ -82,4 +82,10 @@
    * [Exercises: Advanced II](advanced_topics_ii/exercises_advanced_ii.md)
 * [Exercises: miscellaneous](exercises_miscellaneous/README.md)
 * [GDB](gdb/README.md)
+   * [What is GDB?](gdb/what_is_gdb.md)
+   * [First steps](gdb/article.md)
+       * [Erleboard and GDB](gdb/erleboard_and_gdb.md)
+       * [ Starting GDB](gdb/starting_gdb.md)
+   * [GDB commands](gdb/gdb_commands.md)
+   * [Running programs](gdb/running_programs.md)
 
