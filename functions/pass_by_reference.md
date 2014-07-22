@@ -6,7 +6,11 @@ within the function don’t occur outside the function .
 For example:
 
 ```cpp
+#include <iostream>
+using namespace std;
+
 // pass-by-value
+
 void increment(int a) {
  a = a + 1;
  cout << "a in increment " << a << endl;
@@ -28,6 +32,9 @@ If you want to modify the original variable as
 opposed to making a copy, pass the variable by
 reference (`int &a` instead of `int a`).
 ```cpp
+#include <iostream>
+using namespace std;
+
 //pass by-reference
 void increment(int &a) {
  a = a + 1;
@@ -37,8 +44,7 @@ void increment(int &a) {
 int main() {
  int q = 3;
  increment(q); // works
- cout << "q in main " << q << endl;
-}
+ co
 ```
 The output is:
 ```

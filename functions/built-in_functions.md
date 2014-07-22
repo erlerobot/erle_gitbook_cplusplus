@@ -9,11 +9,15 @@ For now you know how to calculate 3^4 using for loop, like this example:
 using namespace std;
 
 int main() {
- int threeExpFour = 1;
- for (int i = 0; i < 4; i = i + 1) {
- threeExpFour = threeExpFour * 3;
+  int threeExpFour = 1;
+
+ for (int i = 0; i < 4; i = i + 1){
+   threeExpFour = threeExpFour * 3;
  }
+
  cout << "3^4 is " << threeExpFour << endl;
+
+
  return 0;
 }
 ```
@@ -21,14 +25,14 @@ This example shows the result of 3^4.
 Now we want to do the same but using functions.That is, define the function `threeExpFour` which calculates the value of 3^4.This is very simple if we use a built-in function: `pow(base,exp)` from the `cmath` library.
 
 ```cpp
-
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 int main() {
- int threeExpFour = pow(3, 4);
- cout << "3^4 is " << threeExpFour << endl;
+  int threeExpFour = pow(3, 4);
+  cout << "3^4 is " << threeExpFour << endl;
+
  return 0;
 }
 ```

@@ -2,6 +2,8 @@
 
 They are vaiables that can be accessed from any function. For example, how many times is function foo() called?
 ```cpp
+#include <iostream>
+
 int numCalls = 0;
 
 void foo() {
@@ -10,7 +12,9 @@ void foo() {
 
 int main() {
  foo(); foo(); foo();
- cout << numCalls << endl; // 3
+ std::cout << numCalls << endl; // 3
+
+ return 0;
 }
 ```
 `numCalls` is a global variable. Where a

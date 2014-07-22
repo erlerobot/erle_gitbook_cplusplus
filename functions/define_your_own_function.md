@@ -2,6 +2,7 @@
 
 Continuing with the example of the previus section,
 what about defining our own fuction to do 3^4, like this:
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -10,8 +11,11 @@ using namespace std;
 // to an arbitrary power
 
 int main() {
+
  int threeExpFour = raiseToPower(3, 4);
+
  cout << "3^4 is " << threeExpFour << endl;
+
  return 0;
 }
 ```
@@ -19,11 +23,10 @@ int main() {
 The function `raiseToPower`must be declared, like this:
 ```cpp
 
-int raiseToPower(int base, int exponent)
-{
+int raiseToPower(int base, int exponent){
  int result = 1;
- for (int i = 0; i < exponent; i = i + 1) {
- result = result * base;
+ for (int i = 0; i < exponent; i = i + 1){
+  result = result * base;
  }
  return result;
 }
@@ -47,7 +50,7 @@ using namespace std;
 
 int raiseToPower(int base, int exponent) {
 	int result = 1;
-	for (int i = 0; i < exponent; i = i + 1) {
+	for (int i = 0; i < exponent; i = i + 1){
 		result = result * base;
 	}
 	return result;
@@ -56,6 +59,7 @@ int raiseToPower(int base, int exponent) {
 int main() {
 	int threeExpFour = raiseToPower(3, 4);
 	cout << "3^4 is " << threeExpFour << endl;
+
 	return 0;
 }
 ```
@@ -91,7 +95,7 @@ method, though argument names don’t matter
 
 ```cpp
 
-int square(int); //This is the protorype
+int square(int); //This is the prototype
 
 int cube(int x)
 {
@@ -107,6 +111,7 @@ int square(int x) //Here is the declaration
 - Function prototypes are generally put into separate
 header files – Separates specification of the function from its
 implementation :
+
 ```cpp
 // myLib.h - header
 // contains prototypes
@@ -120,13 +125,11 @@ header file containing the prototypes.
 // myLib.cpp - implementation
 #include "myLib.h"
 
-int cube(int x)
-{
+int cube(int x){
  return x*square(x);
 }
 
-int square(int x)
-{
+int square(int x){
  return x*x;
 }
 
@@ -139,11 +142,13 @@ implementation of functions in the .dll file at compile time .
 
 - Functions can call themselves.
 ```cpp
-int fibonacci(int n) {
- if (n == 0 || n == 1) {
- return 1;
- } else {
- return fibonacci(n-2) + fibonacci(n-1);
- }
+int fibonacci(int n){
+
+   if (n == 0 || n == 1) {
+     return 1;
+    }
+    else {
+     return fibonacci(n-2) + fibonacci(n-1);
+    }
 }
 ```
