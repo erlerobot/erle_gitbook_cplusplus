@@ -47,12 +47,12 @@ return x / y;
 by 0!");
 }
 
- void f( int x, int ** arrPtr ) {
- try {
+void f( int x, int ** arrPtr ) {
+try {
  * arrPtr = new int [ divide (5, x)];
  }
  catch ( bad_alloc & error ) {// new throws exceptions  this type.
-cerr << " new failed to allocate memory ";
+ cerr << " new failed to allocate memory ";
  }
  catch ( runtime_exception & error ) {
  // cerr is like cout but for error messages

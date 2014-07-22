@@ -37,6 +37,7 @@ You can specify which integers you want them to be:
  enum suit_t { CLUBS =18 , DIAMONDS =91 , HEARTS =241 , SPADES =13};
 ```
 The result is something like this:
+
 ```cpp
 #include <iostream>
 
@@ -48,10 +49,12 @@ void print_suit ( const suit_t suit ) {
  std::cout << names[suit];
  }
 
- int main(){
+int main(){
  	suit_t card;
  	card=DIAMONDS;
  print_suit(card);
+
+ return 0;
  }
  ```
 

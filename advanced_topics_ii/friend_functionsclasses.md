@@ -40,6 +40,8 @@ int main () {
   Square sqr (4);
   rect.convert(sqr);
   cout << rect.area();
+
+
   return 0;
 }
 ```
