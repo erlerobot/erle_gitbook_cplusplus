@@ -13,3 +13,5 @@ int main (){
 
     return 0;
 }
+
+\\ This exercise is an example of not using `using namespace std ;`.
