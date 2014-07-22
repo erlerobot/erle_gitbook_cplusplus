@@ -35,8 +35,8 @@ int & getG () { // Return type is int reference
  }
 
  // ... Somewhere in main
- int & gRef = getG (); // gRef is now an alias for g
- gRef = 7; // Modifies g
+int & gRef = getG (); // gRef is now an alias for g
+gRef = 7; // Modifies g
  ```
  If you’re writing a class method that needs to return some internal object, it’s often best to
 return it by reference, since that avoids copying over the entire object. You could also then
