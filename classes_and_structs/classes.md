@@ -43,7 +43,8 @@ int main() {
 
 printVector(xStart,xEnd,yStart,yEnd);
 
-return 0;}
+return 0;
+}
 ```
 
 Now we are going to define a vector as a class:

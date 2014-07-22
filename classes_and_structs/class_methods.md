@@ -37,6 +37,7 @@ public:
  start.y += offsetY;
  end.y += offsetY;
  }
+
  void print() {
  cout << "(" << start.x << "," << start.y << ") -> (" << end.x <<
 "," << end.y << ")" << endl;
@@ -50,7 +51,7 @@ public:
 Recall that function prototypes allowed us to
 declare that functions will be implemented later.
 
-```cpp
+```
 // vector.h - header file
 class Point {
 public:
@@ -63,7 +64,11 @@ public:
  Point start, end;
  void offset(double offsetX, double offsetY);
  void print();
-};#include "vector.h"
+};
+```
+
+```
+#include "vector.h"
 // vector.cpp - method implementation
 void Point::offset(double offsetX, double offsetY) {
  x += offsetX; y += offsetY;

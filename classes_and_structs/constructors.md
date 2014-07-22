@@ -13,6 +13,7 @@ public:
  x = 0.0; y = 0.0; cout << "Point instance created" << endl;
  }
 };
+
 int main() {
  Point p; // Point instance created
          // p.x is 0.0, p.y is 0.0
@@ -27,6 +28,7 @@ public:
  x = nx; y = ny; cout << "2-parameter constructor" << endl;
  }
 };
+
 int main() {
  Point p(2.0, 3.0); // 2-parameter constructor
                    // p.x is 2.0, p.y is 3.0
