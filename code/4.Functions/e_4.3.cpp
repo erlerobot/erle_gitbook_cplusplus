@@ -1,5 +1,5 @@
-\\Exercises: Functions
-\\Exercise 3
+// Exercises: Functions
+// Exercise 1
 
 #include <iostream>
 using namespace std;

@@ -1,5 +1,5 @@
-\\ Exercise: basics
-\\ Exercise 1
+// Exercise: Basics
+// Exercise 1
 
 #include <iostream>
 

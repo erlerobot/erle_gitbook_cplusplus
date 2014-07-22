@@ -1,5 +1,5 @@
-\\Exercises: Functions
-\\Exercise 2
+// Exercises: Functions
+// Exercise 2
 
 #include<iostream>
 using namespace std;
@@ -20,4 +20,4 @@ int main(){
 	return 0;
 }
 
-\\ Note that you can do the same declaring a unique `name` global varible.
+// Note that you can do the same declaring a unique `name` global varible.

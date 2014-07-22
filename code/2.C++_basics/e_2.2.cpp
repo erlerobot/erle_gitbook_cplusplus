@@ -1,5 +1,6 @@
-\\Exercise: basics
-\\ Exercise 2
+// Exercise: Basics
+// Exercise 2
+
 #include <iostream>
 
 
@@ -14,4 +15,4 @@ int main (){
     return 0;
 }
 
-\\ This exercise is an example of not using `using namespace std ;`.
+// This exercise is an example of not using `using namespace std ;`.

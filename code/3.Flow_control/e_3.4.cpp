@@ -1,5 +1,5 @@
-\\Exercises:Flow Control
-\\ Exercise 4
+// Exercises:Flow Control
+// Exercise 4
 
 #include <iostream>
 
