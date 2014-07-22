@@ -20,18 +20,20 @@ one statement, the curly braces may be omitted. Here is an example:
 ```
  #include <iostream>
 
- using namespace std;
+using namespace std;
 
- int main() {
 
-   int x = 0;
+int main() {
 
-   while(x < 10)
+    int x = 0;
 
-    x = x + 1;
+    while(x < 10)
+    {
+      x = x + 1;
 
-    cout << "x is " << x << "\n";
-   }
+      cout << "x is " << x << "\n";
+    }
+
   return 0;
  }
 ```

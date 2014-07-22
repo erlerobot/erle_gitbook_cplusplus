@@ -103,33 +103,32 @@ Here you have a simple example:
 
 #include <iostream>
 
- using namespace std;
+using namespace std;
 
 
 
- int main() {
+int main() {
 
   int x = 6;
-
   int y = 2;
 
 
 
   if(x > y)
 
-  cout << "x is greater than y\n";
+    cout << "x is greater than y\n";
 
   else if(y > x)
 
-  cout << "y is greater than x\n";
+    cout << "y is greater than x\n";
 
   else
 
-  cout << "x and y are equal\n";
+    cout << "x and y are equal\n";
 
 
 
- return 0;
+  return 0;
 
  }
  ```

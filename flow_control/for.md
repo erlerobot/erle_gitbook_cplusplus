@@ -30,20 +30,20 @@ using namespace std;
 
   for(int x = 0; x < 10; x = x + 1)
 
-  cout << x << "\n";
+   cout << x << "\n";
 
 
 return 0;
 
  }
-
+``
 This program will print out the values 0 through 9, each on its own line.
 If the counter variable is already defined, there is no need to define a new one in the
 initialization portion of the for loop. Therefore, it is valid to have the following:
 ```cpp
  #include <iostream>
 
- using namespace std;
+using namespace std;
 
 
 
@@ -51,15 +51,15 @@ initialization portion of the for loop. Therefore, it is valid to have the follo
 
 
 
- int x = 0;
+    int x = 0;
 
- for(; x < 10; x = x + 1)
+    for(; x < 10; x = x + 1)
 
- cout << x << "\n";
+        cout << x << "\n";
 
 
 
-return 0;
+    return 0;
 
  }
  ```
@@ -103,42 +103,41 @@ Using our example above,
 ```
 #include <iostream>
 
- using namespace std;
+using namespace std;
 
 
 
- int main() {
+int main() {
 
+for(int x = 0; x < 10; x = x + 1)
 
+   cout << x << "\n";
 
- for(int x = 0; x < 10; x = x + 1)
-
- cout << x << "\n";
-
- return 0;
+return 0;
 
 }
 ```
 is converted to
 
 ```cpp
- #include <iostream>
+#include <iostream>
 
- using namespace std;
+using namespace std;
 
- int main() {
+int main() {
 
-int x = 0;
+  int x = 0;
 
-while(x < 10) {
+  while(x < 10)
+     {
 
-cout << x << "\n";
+      cout << x << "\n";
 
-x = x + 1;
+      x = x + 1;
 
-}
+     }
 
-return 0;
+  return 0;
 
  }
  ```
