@@ -6,17 +6,17 @@ point into the basic features of C++.
 #include <iostream>
 
 
-  int main () {
+int main () {
 
- std :: cout << " Hello , world !\n ";
+std :: cout << " Hello , world !\n ";
 
 
 
- return 0;
+return 0;
 
  }
  ```
- There are also another possibilities, like this one:
+ There is also another possibilities, like this one:
 ```cpp
 
 #include<stdio.h>

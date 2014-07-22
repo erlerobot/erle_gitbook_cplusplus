@@ -1,6 +1,6 @@
 ## Exercises:Basics
 
-######Exercise 1
+[######Exercise 1](../code/2.C++_basics/e_2.1.cpp)
 
 Write a program that adds two inputed numbers.
 
@@ -24,7 +24,7 @@ int main()
 }
 ```
 
-######Exercise 2
+[######Exercise 2](../code/2.C++_basics/e_2.2.cpp)
 
 Write a program that ask for a name and say hello.
 
@@ -45,7 +45,8 @@ return 0;
 }
 ```
 *This exercise is an example of not using `using namespace std ;`.*
-######Exercise 3
+
+[######Exercise 3](../code/2.C++_basics/e_2.3.cpp)
 
 Write a program that evaluates the following things for two int numbers:
 

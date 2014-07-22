@@ -5,16 +5,16 @@ values. This is demonstrated in line 6 below:
 ```cpp
 #include<iostream>
 
- using namespace std;
+using namespace std;
 
- int main () {
- int x ;
- cin >> x ;
+int main () {
+int x ;
+cin >> x ;
 
- cout << x / 3 << ' ' << x * 2;
+cout << x / 3 << ' ' << x * 2;
 
- return 0;
- }
+return 0;
+}
  ```
 Just as `cout <<` is the syntax for outputting values, `cin >>` (line 6) is the syntax for inputting
 values.
