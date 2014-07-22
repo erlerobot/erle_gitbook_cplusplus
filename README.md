@@ -35,9 +35,18 @@ This book is an adaptation of:
 
 - [Introduction to C++:* MIT Course Number
 6.096*](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/) under [Creative Commons License]( http://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US)
-- C++ exercises an example from: http://www.programmr.com/zone/cpp
-© All rights reserved.
--[C++ official Documentation](http://www.cplusplus.com/reference/clibrary/)
+
+
+- C++ exercises an example from: http://www.programmr.com/zone/cpp © All rights reserved.
+
+
+- [C++ official Documentation](http://www.cplusplus.com/reference/clibrary/)
+
+
+- [Simple session with GDB](http://faculty.kutztown.edu/spiegel/Debugging/DebugPrimer.htm)
+
+
+- [GDB docs](https://sourceware.org/gdb/current/onlinedocs/gdb/)
 
 
 Unless specified, this content is licensed under the Creative Commons Attribution-NonComercial-Share Alike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
