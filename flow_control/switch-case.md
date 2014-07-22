@@ -63,8 +63,7 @@ int main() {
 
  int x = 6;
 
- switch(x)
- {
+ switch(x){
    case 1:
      cout << "x is 1\n";
      break;
