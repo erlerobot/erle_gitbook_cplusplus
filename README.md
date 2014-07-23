@@ -8,7 +8,7 @@
 
 This book is a **C++ Programming Language** tutorial using [Erle board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
 
-Throught this tutorial you will find examples and explanations of how to use C++ sintaxis, variables, fuctions... Definitely, you will learn to program in Python language.
+Throught this tutorial you will find examples and explanations of how to use C++ sintaxis, variables, fuctions... Definitely, you will learn to program in C++ language.In the last chapter, you can also find GDB debugger basic concepts.
 
 
 

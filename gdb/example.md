@@ -5,7 +5,7 @@
 First create a .cpp file with the content of the sample file `crash.cpp`(You can copy it to another .cpp file or downoad it). You can find the file stored [here](../code/13.GDB/crash.cpp).
 
 The `crash.cpp` program which generate a core dump.
-Frist , to enable debugging, the program must be compiled with the -g option( -g option is used to request debugging information).
+Frist , to enable debugging, the program must be compiled with the `-g` option( `-g` option is used to request debugging information).
 
 ````
 root@erlerobot:~/GDB# g++ -g crash.cpp -o crash

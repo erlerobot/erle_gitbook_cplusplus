@@ -1,6 +1,9 @@
 ## Running programs
 
-Use the run command to start your program under GDB. You must first specify the program name (except on VxWorks) with an argument to GDB (see Getting In and Out of GDB), or by using the `file` or `exec-file command.
+Use the run command to start your program under GDB. You must first specify the program name  with an argument to GDB, for instance by using the `file` or `exec-file` command.
+
+Take into account that when compiling the program in g++ you should add the appropiate options, for later debugging.For example `-g` let you produce debugging information - [Debugging options](https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#Debugging-Options).
+
 
 If you are running your program in an execution environment that supports processes, run creates an inferior process and makes that process run your program. In some environments without processes, run jumps to the start of your program.
 
