@@ -17,10 +17,10 @@ Example:
 ```
 root@erlerobot:~/C++# ls
 hello.cpp
-root@erlerobot:~/C++# gcc hello.cpp -o Hola
+root@erlerobot:~/C++# gcc hello.cpp -o Hello
 root@erlerobot:~/C++# ls
 Hola  hello.cpp
 root@erlerobot:~/C++#
-root@erlerobot:~/C++# ./Hola
-Hola Mundo!
+root@erlerobot:~/C++# ./Hello
+Hello World!
 ```
