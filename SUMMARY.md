@@ -88,4 +88,5 @@
        * [ Starting GDB](gdb/starting_gdb.md)
    * [GDB commands](gdb/gdb_commands.md)
    * [Running programs](gdb/running_programs.md)
+   * [GDB Example](gdb/example.md)
 

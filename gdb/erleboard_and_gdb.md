@@ -21,6 +21,7 @@ For bug reporting instructions, please see:
 ```
 
 If you don't have it installed you can dowload it from the source [here](ftp://ftp.gnu.org/gnu/gdb/).
+(Dowload directly in erleboard if you have internet- connection through a wireless network card- or download it to your PC and follow the suitable steps [here](http://erlerobotics.gitbooks.io/erle_gitbook_unixintroduction/annex_iii_network_connection_with_erle/README.html).)
 
 Then from the command line do the following.Decompress the file and configure it:
 ```
