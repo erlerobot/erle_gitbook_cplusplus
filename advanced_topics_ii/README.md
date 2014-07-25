@@ -1,0 +1,3 @@
+# Advanced topics II
+---
+This chapter will introduce you some possibilities when using C ++ language, in order to make it easier what your programs do.For example: files handling, some comands...
