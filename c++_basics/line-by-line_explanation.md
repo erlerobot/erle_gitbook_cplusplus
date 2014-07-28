@@ -25,7 +25,8 @@ the scope resolution operator (::). Here, we’re telling the compiler to look f
 cout in the std namespace, in which many standard C++ identiﬁers are deﬁned.
 A cleaner alternative is to add the following line below line 2:
 ```cpp
-using namespace std ;```
+using namespace std ;
+```
 
 This line tells the compiler that it should look in the std namespace for any
 identiﬁer we haven’t deﬁned. If we do this, we can omit the std:: preﬁx when
@@ -52,7 +53,7 @@ Here are all the C++ escape sequences which you can include in strings:
 |\"| Double quote character |
 |\some integer x| The character represented by x|
 
--` return 0` indicates that the program should tell the operating system it has completed
+- ` return 0` indicates that the program should tell the operating system it has completed
 successfully. This syntax will be explained in the context of functions; for now, just
 include it as the last line in the main block.
 
