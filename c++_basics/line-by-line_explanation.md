@@ -5,7 +5,7 @@ ignored by the compiler. Another way to write a comment is to put it between `/*
 `*/` (e.g. x = 1 + /*sneaky comment here*/ 1;). A comment of this form may span multiple lines. Comments exist to explain non-obvious things going on in the code.
 
 
-- Lines beginning with `# `are preprocessor commands, which usually change what code
+- Lines beginning with `#` are preprocessor commands, which usually change what code
 is actually being compiled. `#include` tells the preprocessor to dump in the contents of
 another ﬁle, for example `#include <stdio.h>`.
 
