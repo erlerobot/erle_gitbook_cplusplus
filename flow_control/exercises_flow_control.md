@@ -6,7 +6,6 @@ Write a program that checks if the angles given can make a triangle or not (thei
 
 [Solution](../code/3.Flow_control/e_3.1.cpp)
 
-
 ######Exercise 2
 Write a program that prints on the screen all the even numbers up to 10.
 
@@ -19,7 +18,6 @@ next line.
 Do this using if statement.
 
 [Solution](../code/3.Flow_control/e_3.3.cpp)
-
 
 ######Exercise 4
 
