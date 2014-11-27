@@ -24,7 +24,7 @@ giving the form:
 if(condition)
 
 statement
-```
+``
 
 The if-else form is used to decide between two sequences of statements referred to as blocks:
 ```cpp
