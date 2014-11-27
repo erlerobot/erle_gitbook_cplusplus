@@ -10,7 +10,7 @@ is actually being compiled. `#include` tells the preprocessor to dump in the con
 another file, for example `#include <stdio.h>`.
 
 
-- `int main() {...} `deﬁnes the code that should execute when the program starts up.
+- `int main() {...}` deﬁnes the code that should execute when the program starts up.
 The curly braces represent grouping of multiple commands into a block.
 
 
