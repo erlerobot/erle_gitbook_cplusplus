@@ -7,7 +7,7 @@ ignored by the compiler. Another way to write a comment is to put it between `/*
 
 - Lines beginning with `#` are preprocessor commands, which usually change what code
 is actually being compiled. `#include` tells the preprocessor to dump in the contents of
-another ﬁle, for example `#include <stdio.h>`.
+another file, for example `#include <stdio.h>`.
 
 
 - `int main() {...} `deﬁnes the code that should execute when the program starts up.
