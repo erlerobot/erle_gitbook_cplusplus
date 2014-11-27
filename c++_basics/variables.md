@@ -16,13 +16,9 @@ use it as follows:
 	 return 0;
 }
  ```
-(Note how we can print a sequence of values by “chaining” the << symbol.)
-The name of a variable is an identiﬁer token. Identiﬁers may contain numbers, letters, and
-underscores (_), and may not start with a number.
-Line 5 is the declaration of the variable x. We must tell the compiler what type x will be
+(Note how we can print a sequence of values by “chaining” the << symbol.) The name of a variable is an identifier token. Identifiers may contain numbers, letters, and underscores (_), and may not start with a number. Line 5 is the declaration of the variable x. We must tell the compiler what type x will be
 so that it knows how much memory to reserve for it and what kinds of operations may be
-performed on it.
-Line 6 is the initialization of x, where we specify an initial value for it. This introduces a
+performed on it. Line 6 is the initialization of x, where we specify an initial value for it. This introduces a
 new operator: =, the assignment operator. We can also change the value of x later on in the
 code using this operator.
 We could replace lines 5 and 6 with a single statement that does both declaration and
