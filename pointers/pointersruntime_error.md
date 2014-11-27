@@ -8,9 +8,9 @@ Pointers are often set to 0 to signal that they are not currently valid.
 Dereferencing pointers(*unlocated pointers*) to data that has been erased from memory also usually causes runtime
 errors. Example:
 ```cpp
- int * myFunc () {
- int phantom = 4;
- return & phantom ;
+int * myFunc () {
+	int phantom = 4;
+	return & phantom ;
 }
 ```
 phantom is deallocated when myFunc exits, so the pointer the function returns is invalid.

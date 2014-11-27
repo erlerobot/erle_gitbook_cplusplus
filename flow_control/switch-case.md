@@ -3,39 +3,36 @@
 The switch-case is another conditional structure that may or may not execute certain
 statements. However, the switch-case has peculiar syntax and behavior:
 ```cpp
-switch(expression)
+switch(expression){
+  case constant1:
 
-{
+    statementA1
 
-case constant1:
+    statementA2
 
-statementA1
+    ...
 
-statementA2
+    break;
 
-...
+  case constant2:
 
-break;
+    statementB1
 
-case constant2:
+    statementB2
 
-statementB1
+    ...
 
-statementB2
+    break;
 
-...
+  ...
 
-break;
+  default:
 
-...
+    statementZ1
 
-default:
+    statementZ2
 
-statementZ1
-
-statementZ2
-
-...
+    ...
 
 }
 ```
@@ -55,8 +52,6 @@ Here is an example using switch-case:
  #include <iostream>
 
 using namespace std;
-
-
 
 int main() {
 

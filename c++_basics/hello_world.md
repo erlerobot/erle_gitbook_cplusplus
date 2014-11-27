@@ -5,29 +5,20 @@ point into the basic features of C++.
 ```cpp
 #include <iostream>
 
-
 int main () {
-
-std :: cout << " Hello , world !\n ";
-
-
-
-return 0;
-
- }
+	std :: cout << " Hello , world !\n ";
+	return 0;
+}
  ```
  There is also another possibilities, like this one:
 ```cpp
-
 #include<stdio.h>
 
 int main(){
-printf("Hola Mundo! \n ");
-
-return 0;
+	printf("Hola Mundo! \n ");
+	return 0;
 }
 ```
-
 Take into account the following:
 - A statement is a unit of code that does something – a basic building block of a program.
 - An expression is a statement that has a value – for instance, a number, a string, the

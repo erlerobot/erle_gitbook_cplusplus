@@ -43,18 +43,17 @@ example of using pointers to square a number in a similar fashion to pass-by-ref
 using namespace std;
 
 void squareByPtr ( int * numPtr ) {
- * numPtr = * numPtr * * numPtr ;
- }
+	* numPtr = * numPtr * * numPtr ;
+}
 
- int main () {
+int main () {
+	int x = 5;
+	squareByPtr (& x);
+	cout << x; // Prints 25
 
- int x = 5;
- squareByPtr (& x);
- cout << x; // Prints 25
-
- return 0;
- }
- ```
+	return 0;
+}
+```
 
 Note that in line 2 * has different uses.
 

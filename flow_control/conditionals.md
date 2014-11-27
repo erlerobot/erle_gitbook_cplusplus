@@ -2,16 +2,12 @@
 
 The if conditional has the form:
 ```cpp
-if(condition)
+if(condition){
 
-{
+	statement1
 
-statement1
-
-statement2
-
+	statement2
 …
-
 }
 ```
 
@@ -23,32 +19,25 @@ giving the form:
 ```cpp
 if(condition)
 
-statement
-``
+	statement
+```
 
 The if-else form is used to decide between two sequences of statements referred to as blocks:
 ```cpp
-if(condition)
+if(condition){
 
-{
+	statementA1
 
-statementA1
+	statementA2
 
-statementA2
+	…
+}else{
 
-…
+	statementB1
 
-}
+	statementB2
 
-else
-
-{
-
-statementB1
-
-statementB2
-
-…
+	…
 
 }
 ```
@@ -59,36 +48,29 @@ curly braces for that block may be omitted:
 ```cpp
 if(condition)
 
-statementA1
+	statementA1
 
 else
 
-statementB1
+	statementB1
 ```
 The else if is used to decide between two or more blocks based on multiple conditions:
 ```cpp
-if(condition1)
+if(condition1){
 
-{
+	statementA1
 
-statementA1
+	statementA2
 
-statementA2
+	…
 
-…
+} else if(condition2){
 
-}
+	statementB1
 
-else if(condition2)
+	statementB2
 
-{
-
-statementB1
-
-statementB2
-
-…
-
+	…
 }
 ```
 If condition1 is met, the block corresponding to the if is executed. If not, then only if
@@ -106,14 +88,10 @@ Here you have a simple example:
 
 using namespace std;
 
-
-
 int main() {
 
   int x = 6;
   int y = 2;
-
-
 
   if(x > y)
 
@@ -126,8 +104,6 @@ int main() {
   else
 
     cout << "x and y are equal\n";
-
-
 
   return 0;
 
