@@ -1,7 +1,6 @@
 ## References
 
-When we write void f(int &x) {...} and call f(y), the reference variable x becomes
-another name – an alias – for the value of y in memory. We can declare a reference variable
+When we write void f(int &x) {...} and call f(y), the reference variable x becomes another name – an alias – for the value of y in memory. We can declare a reference variable
 locally, as well:
 ```cpp
 int y;
