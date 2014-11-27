@@ -19,11 +19,12 @@ The condition is some expression whose value is being tested. If the condition r
 value of true, then the statements are executed before the program continues on. Otherwise,
 the statements are ignored. If there is only one statement, the curly braces may be omitted,
 giving the form:
+
 ```cpp
 if(condition)
 
 statement
-``
+```
 
 The if-else form is used to decide between two sequences of statements referred to as blocks:
 ```cpp

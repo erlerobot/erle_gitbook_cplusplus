@@ -17,8 +17,8 @@ statement2
 
 As long as condition holds, the block of statements will be repeatedly executed. If there is only
 one statement, the curly braces may be omitted. Here is an example:
-```
- #include <iostream>
+```cpp
+#include <iostream>
 
 using namespace std;
 

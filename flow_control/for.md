@@ -1,7 +1,7 @@
 ## for
 
 The for loop works like the while loop but with some change in syntax:
-```
+```cpp
 for(initialization; condition; incrementation)
 
 {
@@ -17,7 +17,7 @@ statement2
 The for loop is designed to allow a counter variable that is initialized at the beginning of the
 loop and incremented (or decremented) on each iteration of the loop. Curly braces may be
 omitted if there is only one statement. Here is an example:
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -36,7 +36,7 @@ using namespace std;
 return 0;
 
  }
-``
+```
 This program will print out the values 0 through 9, each on its own line.
 If the counter variable is already defined, there is no need to define a new one in the
 initialization portion of the for loop. Therefore, it is valid to have the following:
@@ -83,7 +83,7 @@ statement2
 
 we can write an equivalent while loop as
 initialization
-```
+```cpp
 while(condition)
 
 {
@@ -100,7 +100,7 @@ incrementation
 ```
 
 Using our example above,
-```
+```cpp
 #include <iostream>
 
 using namespace std;
