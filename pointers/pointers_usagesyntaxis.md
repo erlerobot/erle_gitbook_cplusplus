@@ -38,7 +38,6 @@ way we’d say void func(int x) {...}, we can say void func(int *x){...}. Here i
 example of using pointers to square a number in a similar fashion to pass-by-reference:
 
 ```cpp
-
 #include <iostream>
 using namespace std;
 
