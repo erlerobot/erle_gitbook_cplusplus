@@ -23,17 +23,11 @@ deﬁned in a namespace, we tell the compiler to look for it in that namespace u
 using namespace std ;
 ```
 
-This line tells the compiler that it should look in the std namespace for any
-identiﬁer we haven’t deﬁned. If we do this, we can omit the std:: preﬁx when
-writing cout. This is the recommended practice.
+This line tells the compiler that it should look in the std namespace for any identiﬁer we haven’t deﬁned. If we do this, we can omit the std:: preﬁx when writing cout. This is the recommended practice.
 
-- *Strings*: A sequence of characters such as Hello, world is known as a string. A
-string that is speciﬁed explicitly in a program is a string literal.
+- *Strings*: A sequence of characters such as Hello, world is known as a string. A string that is speciﬁed explicitly in a program is a string literal.
 
-
-- *Escape sequences*: The `\n` indicates a newline character. It is an example of an
-escape sequence – a symbol used to represent a special character in a text literal.
-Here are all the C++ escape sequences which you can include in strings:
+- *Escape sequences*: The `\n` indicates a newline character. It is an example of an escape sequence – a symbol used to represent a special character in a text literal. Here are all the C++ escape sequences which you can include in strings:
 
 |**Escape Sequence**| **Represented Character**|
 |---|---|
@@ -48,7 +42,7 @@ Here are all the C++ escape sequences which you can include in strings:
 |\"| Double quote character |
 |\some integer x| The character represented by x|
 
-- ` return 0` indicates that the program should tell the operating system it has completed
+- `return 0` indicates that the program should tell the operating system it has completed
 successfully. This syntax will be explained in the context of functions; for now, just
 include it as the last line in the main block.
 
