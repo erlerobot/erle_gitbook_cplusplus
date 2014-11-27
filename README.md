@@ -2,7 +2,7 @@
 
 
 
-[![Build Status](https://www.gitbook.io/button/status/book/erlerobotics/erle_gitbook_unixintroduction)](https://www.gitbook.io/book/erlerobotics/erle_gitbook_unixintroduction/activity)
+[![Build Status](https://www.gitbook.io/button/status/book/erlerobotics/erle-robotics-c-gitbook)](https://www.gitbook.com/book/erlerobotics/erle-robotics-c-gitbook/activity)
 
 ##Book
 
