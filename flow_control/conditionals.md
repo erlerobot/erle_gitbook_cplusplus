@@ -38,7 +38,6 @@ if(condition){
 	statementB2
 
 	…
-
 }
 ```
 If the condition is met, the block corresponding to the if is executed. Otherwise, the block
