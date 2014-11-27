@@ -13,7 +13,6 @@ g++ filename.cpp -o executablename
 - Now you have an executable file `executablename`.Do `./executablename`to compile it.
 
 Example:
-
 ```
 root@erlerobot:~/C++# ls
 hello.cpp
