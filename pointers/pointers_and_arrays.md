@@ -16,7 +16,6 @@ pointer produces a new pointer pointing to n positions further down in memory.
 
 Take the following code snippet:
 ```cpp
-
 long arr [] = {6 ,0,9,6};
 long * ptr = arr ;
 ptr ++;
