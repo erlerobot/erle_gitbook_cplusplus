@@ -38,7 +38,6 @@ do{
 	statement2
 
 	…
-
 }while(condition);
 ```
 
