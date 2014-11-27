@@ -8,7 +8,7 @@ multiple lines. Comments exist to explain non-obvious things going on in the cod
 
 - Lines beginning with `# `are preprocessor commands, which usually change what code
 is actually being compiled. `#include` tells the preprocessor to dump in the contents of
-another ﬁle, for example `#include <stdio.h>.
+another ﬁle, for example `#include <stdio.h>`.
 
 
 - `int main() {...} `deﬁnes the code that should execute when the program starts up.
@@ -36,7 +36,7 @@ writing cout. This is the recommended practice.
 string that is speciﬁed explicitly in a program is a string literal.
 
 
-- *Escape sequences*: The `\n indicates a newline character. It is an example of an
+- *Escape sequences*: The `\n` indicates a newline character. It is an example of an
 escape sequence – a symbol used to represent a special character in a text literal.
 Here are all the C++ escape sequences which you can include in strings:
 
