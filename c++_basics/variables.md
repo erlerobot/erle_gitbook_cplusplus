@@ -5,17 +5,16 @@ A variable is a named location in memory.
 For example, say we wanted to use the value 4 + 2 multiple times. We might call it x and
 use it as follows:
 ```cpp
-
  #include <iostream>
  using namespace std ;
 
  int main () {
- int x ;
- x = 4 + 2;
- cout << x / 3 << ' ' << x * 2;
+	 int x ;
+	 x = 4 + 2;
+	 cout << x / 3 << ' ' << x * 2;
 
- return 0;
- }
+	 return 0;
+}
  ```
 (Note how we can print a sequence of values by “chaining” the << symbol.)
 The name of a variable is an identiﬁer token. Identiﬁers may contain numbers, letters, and

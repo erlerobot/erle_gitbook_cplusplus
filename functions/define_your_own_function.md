@@ -22,7 +22,6 @@ int main() {
 
 The function `raiseToPower`must be declared, like this:
 ```cpp
-
 int raiseToPower(int base, int exponent){
  int result = 1;
  for (int i = 0; i < exponent; i = i + 1){
@@ -80,31 +79,30 @@ the return type.
 different arguments, the called function is the one whose
 arguments match the invocation.
 
-- `void `type is used when the function has no return value:
+- `void` type is used when the function has no return value:
 ```cpp
 void printOnNewLine(int x)
 {
- cout << "1 Integer: " << x << endl;
+	cout << "1 Integer: " << x << endl;
 }
 ```
 
 - Function declarations need to occur before invocations. You can use a function prototype to inform the compiler
 you’ll implement it later(Function prototypes should match the signature of the
 method, though argument names don’t matter
-) :
+):
 
 ```cpp
-
 int square(int); //This is the prototype
 
 int cube(int x)
 {
- return x*square(x);
+	return x*square(x);
 }
 
 int square(int x) //Here is the declaration
 {
- return x*x;
+	return x*x;
 }
 ```
 
@@ -126,11 +124,11 @@ header file containing the prototypes.
 #include "myLib.h"
 
 int cube(int x){
- return x*square(x);
+	return x*square(x);
 }
 
 int square(int x){
- return x*x;
+	return x*x;
 }
 
 ```
@@ -141,14 +139,13 @@ implementation of functions in the .dll file at compile time .
 
 
 - Functions can call themselves.
+
 ```cpp
 int fibonacci(int n){
-
-   if (n == 0 || n == 1) {
-     return 1;
-    }
-    else {
-     return fibonacci(n-2) + fibonacci(n-1);
-    }
+	if (n == 0 || n == 1) {
+		return 1;
+	}else {
+		return fibonacci(n-2) + fibonacci(n-1);
+	}
 }
 ```

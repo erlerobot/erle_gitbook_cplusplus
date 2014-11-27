@@ -2,16 +2,13 @@
 
 The while loop has a form similar to the if conditional:
 ```cpp
-while(condition)
+while(condition){
 
-{
+	statement1
 
-statement1
+	statement2
 
-statement2
-
-…
-
+	…
 }
 ```
 
@@ -22,9 +19,7 @@ one statement, the curly braces may be omitted. Here is an example:
 
 using namespace std;
 
-
 int main() {
-
     int x = 0;
 
     while(x < 10){
@@ -32,27 +27,22 @@ int main() {
 
       cout << "x is " << x << "\n";
     }
-
-  return 0;
- }
+	return 0;
+}
 ```
 This program will print x is 10.
 The do-while loop is a variation that guarantees the block of statements will be executed at
 least once:
 ```cpp
-do
+do{
 
-{
+	statement1
 
-statement1
+	statement2
 
-statement2
+	…
 
-…
-
-}
-
-while(condition);
+}while(condition);
 ```
 
 The block of statements is executed and then, if the condition holds, the program returns to

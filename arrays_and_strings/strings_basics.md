@@ -10,14 +10,11 @@ using namespace std;
 
 int main() {
 
- char helloworld[] = { 'H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!', '\0' };
+  char helloworld[] = { 'H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!', '\0' };
+  cout << helloworld << endl;
+  return 0;
 
- cout << helloworld << endl;
-
-
- return 0;
-
- }
+}
  ```
 
 This program prints *Hello, world!*. Note that the character array helloworld ends with a
@@ -34,9 +31,9 @@ The individual characters in a string can be manipulated either directly by the 
 by using [special functions provided by the C/C++ libraries](http://www.cplusplus.com/reference/clibrary/). These can be included in a program
 through the use of the `#include `directive. Of particular note are the following:
 
-- ` cctype (ctype.h)`: character handling
-- ` cstdio (stdio.h)`: input/output operations
-- ` cstdlib (stdlib.h)`: general utilities
+- `cctype (ctype.h)`: character handling
+- `cstdio (stdio.h)`: input/output operations
+- `cstdlib (stdlib.h)`: general utilities
 - `cstring (string.h)`: string manipulation
 
 Here is an example to illustrate the [cctype library](http://www.cplusplus.com/reference/cctype/):
@@ -45,13 +42,12 @@ Here is an example to illustrate the [cctype library](http://www.cplusplus.com/r
 #include <cctype>
 using namespace std;
 
-
 int main() {
 
- char messyString[] = "t6H0I9s6.iS.999a9.STRING";
- char current = messyString[0];
+  char messyString[] = "t6H0I9s6.iS.999a9.STRING";
+  char current = messyString[0];
 
- for(int i = 0; current != '\0'; current = messyString[++i]) {
+  for(int i = 0; current != '\0'; current = messyString[++i]) {
 
     if(isalpha(current))
 
@@ -61,11 +57,10 @@ int main() {
 
       cout << ' ';
 
- }
+  }
+  cout << endl;
 
- cout << endl;
-
- return 0;
+  return 0;
 
  }
 ```
@@ -99,18 +94,17 @@ int main() {
 
   char finalString[20] = "";
 
+  strcpy(fragment3, fragment1);
 
-    strcpy(fragment3, fragment1);
+  strcat(finalString, fragment3);
 
-    strcat(finalString, fragment3);
-
-    strcat(finalString, fragment2);
+  strcat(finalString, fragment2);
 
   cout << finalString;
 
   return 0;
 
-  }
+}
  ```
 
 This example creates and initializes two strings, `fragment1` and `fragment2`. `fragment3` is

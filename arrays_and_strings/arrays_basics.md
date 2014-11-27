@@ -54,21 +54,21 @@ The array can also be initialized with values that are not known beforehand:
 
  int main() {
 
-   int arr[4];
+  int arr[4];
 
-   cout << "Please enter 4 integers:" << endl;
+  cout << "Please enter 4 integers:" << endl;
 
-   for(int i = 0; i < 4; i++)
-      cin >> arr[i];\\Fill in the array
+  for(int i = 0; i < 4; i++)
+    cin >> arr[i];\\Fill in the array
 
-   cout << "Values in array are now:";
+  cout << "Values in array are now:";
 
-   for(int i = 0; i < 4; i++)
-      cout << " " << arr[i];\\ Show the content of the array
+  for(int i = 0; i < 4; i++)
+    cout << " " << arr[i];\\ Show the content of the array
 
-   cout << endl;
+  cout << endl;
 
-return 0;
+  return 0;
 }
 ```
 Note that when accessing an array the index given must be a positive integer from 0 to n-1,
@@ -89,27 +89,24 @@ within the function. For example:
 #include <iostream>
 using namespace std;
 
-
- int sum(const int array[], const int length) {
+int sum(const int array[], const int length) {
   long sum = 0;
   for(int i = 0; i < length; sum += array[i++]);
   return sum;
-  }
+}
 
- int main() {
+int main() {
 
   int arr[] = {1, 2, 3, 4, 5, 6, 7};
   cout << "Sum: " << sum(arr, 7) << endl;
 
-
   return 0;
-
-  }
+}
 ```
 
-The function `su`m takes a constant integer array and a constant integer length as its arguments
+The function `sum` takes a constant integer array and a constant integer length as its arguments
 and adds up length elements in the array. It then returns the `sum`, and the program prints out
-`Sum: 28. `
+`Sum: 28`.
 
 It is important to note that arrays are passed by reference and so any changes made to the
 array within the function will be observed in the calling scope.
@@ -133,35 +130,34 @@ using namespace std;
 
 int main() {
 
- int twoDimArray[2][4];
+  int twoDimArray[2][4];
 
- twoDimArray[0][0] = 6;
+  twoDimArray[0][0] = 6;
 
- twoDimArray[0][1] = 0;
+  twoDimArray[0][1] = 0;
 
- twoDimArray[0][2] = 9;
+  twoDimArray[0][2] = 9;
 
- twoDimArray[0][3] = 6;
+  twoDimArray[0][3] = 6;
 
- twoDimArray[1][0] = 2;
+  twoDimArray[1][0] = 2;
 
- twoDimArray[1][1] = 0;
+  twoDimArray[1][1] = 0;
 
- twoDimArray[1][2] = 1;
+  twoDimArray[1][2] = 1;
 
- twoDimArray[1][3] = 1;
+  twoDimArray[1][3] = 1;
 
-for(int i = 0; i < 2; i++)
+  for(int i = 0; i < 2; i++)
 
- for(int j = 0; j < 4; j++)
+    for(int j = 0; j < 4; j++)
 
-  cout << twoDimArray[i][j];
-  cout << endl;
+      cout << twoDimArray[i][j];
+      out << endl;
 
+  return 0;
 
- return 0;
-
- }
+}
 
 ```
 
