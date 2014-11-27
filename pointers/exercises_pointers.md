@@ -11,18 +11,14 @@ Write a C++ program to find the max of an integral data set. The program will as
 
 [Solution](../code/6.Pointers/e_6.2.cpp)
 
-
 ######Exercise 3
 
 Take input in variable and display same value by pointer.
 
 [Solution](../code/6.Pointers/e_6.3.cpp)
 
-
 ######Exercise 4
 
-Given the string "A string." Print on one line the letter on the index 0, the pointer position and the letter t.
-undate the pointer to pointer +2.
-Then, in another line print the pointer and the letters r and g of the string (using the pointer).
+Given the string "A string." Print on one line the letter on the index 0, the pointer position and the letter t. undate the pointer to pointer +2. Then, in another line print the pointer and the letters r and g of the string (using the pointer).
 
 [Solution](../code/6.Pointers/e_6.4.cpp)
