@@ -17,12 +17,8 @@ The curly braces represent grouping of multiple commands into a block.
 -  `cout <<` : This is the syntax for outputting some piece of text to the screen.
 
 
-- *Namespaces*: In C++, identiﬁers can be deﬁned within a context – sort of a
-directory of names – called a namespace. When we want to access an identiﬁer
-deﬁned in a namespace, we tell the compiler to look for it in that namespace using
-the scope resolution operator (::). Here, we’re telling the compiler to look for
-cout in the std namespace, in which many standard C++ identiﬁers are deﬁned.
-A cleaner alternative is to add the following line below line 2:
+- *Namespaces*: In C++, identiﬁers can be deﬁned within a context – sort of a directory of names – called a namespace. When we want to access an identiﬁer
+deﬁned in a namespace, we tell the compiler to look for it in that namespace using the scope resolution operator (::). Here, we’re telling the compiler to look for cout in the std namespace, in which many standard C++ identiﬁers are deﬁned.  A cleaner alternative is to add the following line below line 2:
 ```cpp
 using namespace std ;
 ```
