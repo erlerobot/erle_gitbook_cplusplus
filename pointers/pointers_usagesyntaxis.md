@@ -1,6 +1,6 @@
 ## Pointers usage/syntaxis
 
- ######Declaring Pointers
+######Declaring Pointers
 To declare a pointer variable named `ptr` that points to an integer variable named x:
 ```cpp
 int *ptr = &x;
