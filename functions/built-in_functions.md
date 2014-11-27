@@ -2,7 +2,6 @@
 
 ## Simple examples
 
-
 For now you know how to calculate 3^4 using for loop, like this example:
 ```cpp
 #include <iostream>
@@ -28,7 +27,7 @@ using namespace std;
 
 int main() {
 	int threeExpFour = pow(3, 4);
-  	cout << "3^4 is " << threeExpFour << endl;
+    cout << "3^4 is " << threeExpFour << endl;
 
 	return 0;
 }
