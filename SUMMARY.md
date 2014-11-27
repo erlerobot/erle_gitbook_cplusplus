@@ -4,5 +4,12 @@
    * [Why to use C++? ](c++_programming_language/why_to_use_c++.md)
    * [Editors, compilers and extensions](c++_programming_language/compiling__c++.md)
    * [C++ and erleboard](c++_programming_language/c++_and_erleboard.md)
-
-
+* [C++ basics](c++_basics/README.md)
+   * [Hello World ](c++_basics/hello_world.md)
+   * [Tokens](c++_basics/tokens.md)
+   * [Line-By-Line Explanation](c++_basics/line-by-line_explanation.md)
+   * [Operators](c++_basics/operators.md)
+   * [Data Types](c++_basics/data_types.md)
+   * [Variables](c++_basics/variables.md)
+   * [Input ](c++_basics/input.md)
+   * [Exercises:Basics](c++_basics/exercises.md)
