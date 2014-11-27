@@ -54,7 +54,6 @@ at program startup.) You can, however, modify the contents of an array of charac
 Consider the following example:
 ```cpp
 char courseName1[] = {’6 ’, ’. ’, ’0 ’, ’9 ’, ’6 ’, ’\0 ’ };
-
 char *courseName2 = "6.096 ";
 ```
 
