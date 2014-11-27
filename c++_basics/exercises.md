@@ -12,8 +12,6 @@ Write a program that ask for a name and say hello.
 
 [Solution](../code/2.C++_basics/e_2.2.cpp)
 
-
-
 ######Exercise 3
 
 Write a program that evaluates the following things for two int numbers:
