@@ -12,7 +12,7 @@ int main () {
  ```
  There is also another possibilities, like this one:
 ```cpp
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	printf("Hola Mundo! \n ");
