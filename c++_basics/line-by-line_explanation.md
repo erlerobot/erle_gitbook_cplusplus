@@ -1,7 +1,7 @@
 ## Line-By-Line Explanation
 
-- `// `indicates that everything following it until the end of the line is a comment: it is
-ignored by the compiler. Another way to write a comment is to put it between `/* `and
+- `//` indicates that everything following it until the end of the line is a comment: it is
+ignored by the compiler. Another way to write a comment is to put it between `/*` and
 `*/` (e.g. x = 1 + /*sneaky comment here*/ 1;). A comment of this form may span
 multiple lines. Comments exist to explain non-obvious things going on in the code.
 
