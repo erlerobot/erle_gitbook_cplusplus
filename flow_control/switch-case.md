@@ -49,7 +49,7 @@ switch-cases generally have if-else equivalents but can often be a cleaner way o
 expressing the same behavior.
 Here is an example using switch-case:
 ```cpp
- #include <iostream>
+#include <iostream>
 
 using namespace std;
 
