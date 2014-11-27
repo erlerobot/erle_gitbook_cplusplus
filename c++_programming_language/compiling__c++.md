@@ -20,7 +20,6 @@ Also, you need to install gcc and g++:
 
 - Windows:
  + [Microsoft Visual C++ 2008 Express]( http://www.microsoft.com/express/vc/)
-
  + [Mingw](http://www.mingw.org/wiki/HOWTO_Install_the_MinGW_GCC_Compiler_Suite)
 
 ######Extensions
