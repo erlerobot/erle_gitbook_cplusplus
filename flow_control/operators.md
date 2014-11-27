@@ -1,6 +1,6 @@
 ## Operators
 
-Conditionals(*if statements*) use two kinds of special operators: relational and logical. These are used to
+Conditionals (*if statements*) use two kinds of special operators: relational and logical. These are used to
 determine whether some condition is true or false.
 
 ######Relational Operators
