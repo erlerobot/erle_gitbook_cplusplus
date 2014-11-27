@@ -32,7 +32,6 @@ int main() {
 This program will print x is 10. The do-while loop is a variation that guarantees the block of statements will be executed at least once:
 ```cpp
 do{
-
 	statement1
 
 	statement2
