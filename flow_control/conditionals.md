@@ -116,9 +116,10 @@ int x = 2;
 
 int y = 6;
 ```
-then the output is y is greater than x. If we replace the lines with
+then the output is y is greater than x. If we replace the lines with:
+```
 int x = 2;
 
 int y = 2;
-
+```
 then the output is x and y are equal.

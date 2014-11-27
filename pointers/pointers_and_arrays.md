@@ -41,7 +41,7 @@ is referred to as pointer-subscript notation.
 
 An alternative is pointer-oﬀset notation, in which you explicitly add your oﬀsetto the pointer
 and dereference the resulting address. For instance, an alternate and functionally identical
-way to express `myArray[3]` is `*(myArray + 3).
+way to express `myArray[3]` is `*(myArray + 3)`.
 
 ######char * Strings
 

@@ -12,7 +12,7 @@ int divide(int numerator, int denominator, int &remainder)
 {
 	remainder = numerator % denominator;
 	return numerator / denominator;
-	}
+}
 
 int main() {
 	int num = 14;

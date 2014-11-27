@@ -16,7 +16,7 @@ int arr[4];
 
 The elements of an array can be accessed by using an index into the array. Arrays in C++ are
 zero-indexed, so **the first element has an index of 0**. So, to access the third element in arr, we
-write `arr[2]; The value returned can then be used just like any other integer.
+write `arr[2]`; The value returned can then be used just like any other integer.
 
 Like normal variables, the elements of an array must be initialized before they can be used;
 otherwise we will almost certainly get unexpected results in our program. There are several
