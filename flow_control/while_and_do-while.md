@@ -24,7 +24,6 @@ int main() {
 
     while(x < 10){
       x = x + 1;
-
       cout << "x is " << x << "\n";
     }
 	return 0;
