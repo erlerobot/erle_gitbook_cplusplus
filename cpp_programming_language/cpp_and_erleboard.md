@@ -1,4 +1,4 @@
-## C++ and erleboard
+## C++ and Erle-Brain
 
 You should be able to run C++ programs in erleboard:
 - Create a file with the correcte extension `.cpp`, you can use *vim text editor*.

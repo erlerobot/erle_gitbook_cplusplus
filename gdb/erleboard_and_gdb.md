@@ -1,6 +1,6 @@
-## Erleboard and GDB
+## Erle-Brain and GDB
 
-By default you should have GDB installed in your erleboard. You can start a gdb debugging session by typing `gdb` and close it using the command `quit`as shown below.You can always ask GDB itself for information on its commands, using the command `help`.
+By default you should have GDB installed in your Erle-Brain. You can start a gdb debugging session by typing `gdb` and close it using the command `quit`as shown below.You can always ask GDB itself for information on its commands, using the command `help`.
 
 ```
 root@erlerobot:~/GDB# gdb
